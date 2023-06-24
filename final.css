@@ -100,10 +100,10 @@
   margin: 0 2% 0 0;
 }
 
-  /* clear margin of last article to allow it to fit within layout */
-  .final__layout3 article:last-child {
-    margin: 0;
-  }
+/* clear margin of last article to allow it to fit within layout */
+.final__layout3 article:last-child {
+  margin: 0;
+}
 
 /* simple clearfix to prevent collapse */
 .final__layout3 .articles::after {
@@ -121,7 +121,7 @@
    SIMPLE MEDIA QUERIES FOR RESPONSIVE LAYOUTS
    ============================================ */
 
-@media screen and ( max-width : 768px ) {
+@media screen and (max-width : 768px) {
 
   .final__layout1 article,
   .final__layout1 aside,
